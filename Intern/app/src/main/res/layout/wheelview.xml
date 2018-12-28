@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:background="@color/bg_white"
+        android:padding="10dp"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <RelativeLayout
+        android:id="@+id/rl_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/tv_cancel"
+            style="@style/Text_black"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="取消" />
+
+        <TextView
+            android:id="@+id/tv_finish"
+            style="@style/Text_black"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:text="完成" />
+
+
+    </RelativeLayout>
+    <project.hqq.com.intern.views.PickerView
+        android:layout_below="@id/rl_title"
+        android:id="@+id/pv_type"
+        android:layout_marginTop="10dp"
+        android:background="@color/bg_white"
+        android:layout_width="match_parent"
+        android:layout_height="100dp" />
+    </RelativeLayout>
+</RelativeLayout>

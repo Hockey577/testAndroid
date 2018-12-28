@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <View
+        android:background="@color/gray"
+        android:layout_width="match_parent"
+        android:layout_height="2px"/>
+    <LinearLayout
+        android:id="@+id/ll_choose"
+        android:layout_width="match_parent"
+        android:layout_height="35dp">
+        <LinearLayout
+            android:background="@drawable/bg_button"
+            android:id="@+id/ll_size"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/tv_size"
+                style="@style/TextStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="二级学院"/>
+            <ImageView
+                android:layout_marginLeft="1dp"
+                android:layout_gravity="center"
+                android:src="@drawable/pull_down"
+                android:layout_width="12dp"
+                android:layout_height="12dp" />
+        </LinearLayout>
+        <LinearLayout
+            android:background="@drawable/bg_button"
+            android:id="@+id/ll_industry"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/tv_industry"
+                style="@style/TextStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="专业"/>
+            <ImageView
+                android:layout_marginLeft="1dp"
+                android:layout_gravity="center"
+                android:src="@drawable/pull_down"
+                android:layout_width="12dp"
+                android:layout_height="12dp" />
+        </LinearLayout>
+    </LinearLayout>
+    <View
+        android:id="@+id/view_1"
+        android:layout_below="@+id/ll_choose"
+        android:background="@color/gray"
+        android:layout_width="match_parent"
+        android:layout_height="2px"/>
+    <ListView
+        android:layout_below="@+id/view_1"
+        android:id="@+id/list_1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+</LinearLayout>

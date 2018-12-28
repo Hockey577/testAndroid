@@ -1,0 +1,40 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="TextStyle">
+        <item name="android:textSize">@dimen/text_little</item>
+        <item name="android:textColor">@color/home_red</item>
+    </style>
+
+    <style name="Text_gray">
+        <item name="android:textSize">@dimen/text_little</item>
+        <item name="android:textColor">@color/text_gray</item>
+    </style>
+
+    <style name="Text_black">
+        <item name="android:textSize">@dimen/text_little</item>
+    </style>
+
+    <style name="checkbox">
+        parent="@android:style/Widget.CompoundButton.CheckBox">
+        <item name="android:button">@drawable/bg_checkbox</item>
+    </style>
+
+    <style name="anim_menu_bottombar">
+        parent="android:Animation" mce_bogus="1"
+        <item name="android:windowEnterAnimation">@anim/menu_bottombar_in</item>
+        <item name="android:windowExitAnimation">@anim/menu_bottombar_out</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+</resources>

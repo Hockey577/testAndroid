@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:layout_margin="5dp">
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:src="@drawable/identification" />
+    <TextView
+        android:textSize="12sp"
+        android:id="@+id/text"
+        android:layout_marginTop="3dp"
+        android:gravity="center"
+        android:layout_width="67dp"
+        android:layout_height="wrap_content"
+        android:text="身份认证"/>
+
+</LinearLayout>

@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Intern</string>
+    <string name="title_activity_get_feed_back">GetFeedBackActivity</string>
+</resources>

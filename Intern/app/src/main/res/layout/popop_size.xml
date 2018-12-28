@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+    <ListView
+        android:id="@+id/list_size"
+        android:layout_width="match_parent"
+        android:layout_height="160dp"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_below="@id/list_size"
+        android:background="@color/home_red"></View>
+
+    <RelativeLayout
+        android:id="@+id/rl_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/list_size"
+        android:layout_margin="10dp"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/tv_certain"
+            android:layout_width="50dp"
+            android:layout_height="25dp"
+            android:background="@drawable/bg_tv_red"
+            android:gravity="center"
+            android:text="确认"
+            android:textColor="@color/home_red"/>
+
+        <TextView
+            android:id="@+id/tv_cancel"
+            android:layout_width="50dp"
+            android:layout_height="25dp"
+            android:layout_marginLeft="70dp"
+            android:layout_toRightOf="@id/tv_certain"
+            android:background="@drawable/bg_tv_red"
+            android:gravity="center"
+            android:text="取消"
+            android:textColor="@color/home_red"/>
+    </RelativeLayout>
+</RelativeLayout>
